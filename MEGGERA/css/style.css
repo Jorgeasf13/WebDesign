@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+  
+    font-family: "Jockey One", sans-serif;
+    background-color: #767676;
+    background-image: url(../images/meggera-pano-fundo.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+    
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+    
+    
+}
+
+header{
+    text-align: center;
+    /* padding: 10px; */
+
+}
+
+.logo{
+    width: 50%;
+    margin: auto;
+    
+}
+section{
+    padding: 20px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.formContainer{
+    
+    text-align: center;
+    max-width: 400px;
+    background-color: #555555bb;
+    padding: 10px;
+    opacity: 80%;
+    border-radius: 10px;
+
+}
+
+input,select{
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 3px;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+input[type="submit"]{
+    color: white;
+    background-color: rgba(243, 4, 4, 0.878);
+    font-weight: bold;
+    border-radius: 5px;
+
+}
+input:hover{
+    background-color: #005580
+}
+
+.social-icons{
+    
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+    margin: auto;
+}
+footer {
+    text-align: center;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin: 0 10px; 
+  }
+  
+  
+  .social-icons a img {
+    width: 40px; 
+    height: auto;
+  }
+
+  @media screen and (max-width: 500px) {
+
+    .formContainer{
+        max-width: 200px;
+        background-color: #ffffffbb;
+        padding: 20px;
+        float: none;
+        text-align: center;
+    
+    }
+    body{
+        background-size: auto;
+    }
+    
+}
+  
+/* .social-icon{
+    width: 20px;
+    padding: 10px 10px 10px 0;
+
+} */
+
